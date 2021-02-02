@@ -1,9 +1,11 @@
+package sudoku.field;
+
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 
 /**
- * Textfield for Sudoku.
+ * Textfield for sudoku.main.Sudoku.
  */
 public final class SudokuTextField extends JTextField {
     private boolean modified;

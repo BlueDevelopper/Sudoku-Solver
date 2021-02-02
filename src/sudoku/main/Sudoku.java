@@ -1,3 +1,10 @@
+package sudoku.main;
+
+import sudoku.field.Field;
+import sudoku.handler.ActionHandler;
+import sudoku.menu.ButtonPanel;
+import sudoku.menu.MainMenu;
+
 import java.awt.*;
 import javax.swing.*;
 
@@ -6,10 +13,10 @@ import javax.swing.*;
  */
 public final class Sudoku extends JFrame {
     /**
-     * Constructs the Sudoku main window.
+     * Constructs the sudoku.main.Sudoku main window.
      */
     public Sudoku() {
-        setTitle("Sudoku Solver V1.0");
+        setTitle("Sudoku sudoku.solver.Solver V1.0");
         Field field = new Field();
         ActionHandler actionHandler = new ActionHandler(field);
 
@@ -34,7 +41,7 @@ public final class Sudoku extends JFrame {
     }
 
     /**
-     * Main method starting the Sudoku solver.
+     * Main method starting the sudoku.main.Sudoku solver.
      *
      * @param args the command line arguments
      */

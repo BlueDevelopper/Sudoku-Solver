@@ -1,8 +1,12 @@
+package sudoku.menu;
+
+import sudoku.handler.ActionHandler;
+
 import javax.swing.*;
 import java.awt.*;
 
 /**
- * The panel displaying some actions for the Sudoku solver.
+ * The panel displaying some actions for the sudoku.main.Sudoku solver.
  */
 public final class ButtonPanel extends JPanel {
     /**

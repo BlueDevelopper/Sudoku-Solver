@@ -1,3 +1,7 @@
+package sudoku.menu;
+
+import sudoku.handler.ActionHandler;
+
 import javax.swing.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;

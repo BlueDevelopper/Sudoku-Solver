@@ -1,15 +1,17 @@
+package sudoku.field;
+
 import javax.swing.*;
 import java.awt.*;
 
 /**
- * A panel rendering the Sudoku field.
+ * A panel rendering the sudoku.main.Sudoku field.
  * <p>
  * Cells are identified by zero-based indices from top-left to bottom-right.
  */
 public final class Field extends JPanel {
     private SudokuTextField[][] array = new SudokuTextField[9][9];
     /**
-     * Constructs a new 9x9 Sudoku grid.
+     * Constructs a new 9x9 sudoku.main.Sudoku grid.
      */
     public Field() {
         setLayout(null); //Absolutes Layout

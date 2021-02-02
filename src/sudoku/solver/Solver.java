@@ -1,11 +1,15 @@
+package sudoku.solver;
+
+import sudoku.field.Field;
+
 /**
- * Implements the backtracking algorithm for solving the Sudoku.
+ * Implements the backtracking algorithm for solving the sudoku.main.Sudoku.
  */
 public final class Solver {
     private int[] rowArray = new int[9];
 
     /**
-     * Attempts to solve the given Sudoku field.
+     * Attempts to solve the given sudoku.main.Sudoku field.
      *
      * The solution, if any, is directly entered into the field.
      * All solved fields will be in modified state.
@@ -179,7 +183,7 @@ public final class Solver {
     }
 
     /**
-     * Performs a fast check whether any field violates the Sudoku rules.
+     * Performs a fast check whether any field violates the sudoku.main.Sudoku rules.
      *
      * @param f the field to check
      * @return true, if the check succeeds, false otherwise

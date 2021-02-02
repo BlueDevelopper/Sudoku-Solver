@@ -1,3 +1,7 @@
+package sudoku.handler;
+import sudoku.field.Field;
+import sudoku.solver.Solver;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

@@ -1,3 +1,7 @@
+package sudoku.handler;
+
+import sudoku.field.Field;
+
 import javax.swing.*;
 import java.io.*;
 
@@ -58,7 +62,7 @@ public class DocumentHandler {
                 field.setAllCellsModified(false);
             } else {
                 clearFilename(); //Wenn das oeffnen nicht gekalppt hat, muss der Dateiname zurueckgesetzt werden
-                JOptionPane.showMessageDialog(null, "Kein Sudoku-Feld enthalten", "Info",
+                JOptionPane.showMessageDialog(null, "Kein sudoku.main.Sudoku-Feld enthalten", "Info",
                         JOptionPane.INFORMATION_MESSAGE);
             }
         } else {
